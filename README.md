@@ -1,8 +1,34 @@
 
-A marine cabin systems and environment controller/supervisor.
+The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It collects data and transmits this data on the vessel's NMEA2000 (N2K) bus. The MCC400 monitors:
+* Fridge, freezer, battery and inverter temperatures using [DS18B20 1-wire Thermometer sensors](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf) connected to the 1-wire bus.
+* Barometric pressure, cabin temperature and relative humidity using a [Bosch BME820 Environmental Sensor](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) on the controller board.
+* A bilge water level switch via an opto-isolated input.
+* Fresh water consumption using a hall effect flow meter at the input to the fresh water pump, connected to an opto-isolated input.
+* Up to four tank level senders connected to 14v tolerant ADC inputs.
+* Up to four MQ gas sensors connected to 5v ADC inputs.
+* Three voltage / current / power channels using external shunt resistors. These are usually conntected to the house battery bank, the cranking battery and the PV regulator.
+
+The MCC400 also has two serial ports: one RS232 (RX/TX) and one RS485. These can be connected to other serial devices, e.g. a GPS or a solar charge controller.
 
 **Contents**
-- [Product Description](#product-description)
+- [Quick-start Guide](#quick-start-guide)
+  - [Unboxing](#unboxing)
+  - [Connecting to the NMEA 2000 Bus](#connecting-to-the-nmea-2000-bus)
+  - [Turning the device on and off](#turning-the-device-on-and-off)
+- [Installation](#installation)
+  - [Connecting to the NMEA 2000 Bus](#connecting-to-the-nmea-2000-bus-1)
+  - [Connecting the Sensors](#connecting-the-sensors)
+    - [1-Wire Temperature Sensors](#1-wire-temperature-sensors)
+    - [Flow meter](#flow-meter)
+    - [Battery Shunts](#battery-shunts)
+    - [Analog Tank Level Senders](#analog-tank-level-senders)
+    - [Bilge Switch](#bilge-switch)
+    - [Gas Sensors](#gas-sensors)
+  - [Connecting the Relays](#connecting-the-relays)
+- [Operating Instructions](#operating-instructions)
+  - [Start-up, Sleep and Shutdown](#start-up-sleep-and-shutdown)
+  - [Button Functions](#button-functions)
+  - [Setup](#setup)
 - [Hardware](#hardware)
   - [Front Panel Buttons](#front-panel-buttons)
   - [Front Panel OLED Display](#front-panel-oled-display)
@@ -22,27 +48,47 @@ A marine cabin systems and environment controller/supervisor.
   - [Assets](#assets)
   - [Datasheets](#datasheets)
 
+# Quick-start Guide
 
-# Product Description
+*TODO: Document the `Quick-start Guide` section*
 
-The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It collects data and transmits this data on the vessel's NMEA2000 (N2K) bus. The MCC400 monitors:
-* Fridge, freezer, battery and inverter temperatures using [DS18B20 1-wire Thermometer sensors](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf) connected to the 1-wire bus.
-* Barometric pressure, cabin temperature and relative humidity using a [Bosch BME820 Environmental Sensor](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) on the controller board.
-* A bilge water level switch via an opto-isolated input.
-* Fresh water consumption using a hall effect flow meter at the input to the fresh water pump, connected to an opto-isolated input.
-* Up to four tank level senders connected to 14v tolerant ADC inputs.
-* Up to four MQ gas sensors connected to 5v ADC inputs.
-* Three voltage / current / power channels using external shunt resistors. These are usually conntected to the house battery bank, the cranking battery and the PV regulator.
+## Unboxing
+## Connecting to the NMEA 2000 Bus
+## Turning the device on and off
 
-The MCC400 also has two serial ports: one RS232 (RX/TX) and one RS485. These can be connected to other serial devices, e.g. a GPS or a solar charge controller.
+# Installation
+
+*TODO: Document the `Installation` section*
+
+## Connecting to the NMEA 2000 Bus
+
+## Connecting the Sensors
+### 1-Wire Temperature Sensors
+### Flow meter
+### Battery Shunts
+### Analog Tank Level Senders
+### Bilge Switch
+### Gas Sensors
+
+## Connecting the Relays
+
+# Operating Instructions
+
+*TODO: Document the `Operating Instructions` section*
+
+## Start-up, Sleep and Shutdown
+## Button Functions
+## Setup
 
 # Hardware
 
 ## Front Panel Buttons
 
+*TODO: Document the `Front Panel OLED Display` section*
+
 ## Front Panel OLED Display
 
-*TODO: Document the `USB Programming Port` section*
+*TODO: Document the `Front Panel OLED Display` section*
 
 ## External Connectors
 
