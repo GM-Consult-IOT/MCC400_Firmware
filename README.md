@@ -6,7 +6,7 @@ The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It colle
 * Fresh water consumption using a hall effect flow meter at the input to the fresh water pump, connected to an opto-isolated input.
 * Up to four tank level senders connected to 14v tolerant ADC inputs.
 * Up to four MQ gas sensors connected to 5v ADC inputs.
-* Three voltage / current / power channels using external shunt resistors. These are usually conntected to the house battery bank, the cranking battery and the PV regulator.
+* Three voltage / current / power channels using external shunt resistors. These are usually conntected to the house battery bank, the cranking battery and the solar charge controller.
 
 The MCC400 also has two serial ports: one RS232 (RX/TX) and one RS485. These can be connected to other serial devices, e.g. a GPS or a solar charge controller.
 
