@@ -3,9 +3,20 @@
 A marine cabin systems and environment controller/supervisor.
 
 **Contents**
-- [Product Description](#product-description)
-- [External Connectors](#external-connectors)
-  - [1-Wire Bus](#1-wire-bus)
+- [MCC400 MARINE CABIN CONTROLLER](#mcc400-marine-cabin-controller)
+  - [Product Description](#product-description)
+  - [External Connectors](#external-connectors)
+    - [1-Wire Bus](#1-wire-bus)
+    - [Opto-isolated Inputs](#opto-isolated-inputs)
+    - [MQ Gas Sensors ADC Inputs](#mq-gas-sensors-adc-inputs)
+    - [Tank ADC Inputs](#tank-adc-inputs)
+    - [Opto-isolated Relay Outputs](#opto-isolated-relay-outputs)
+    - [Voltage, Current and Power Measurement Inputs](#voltage-current-and-power-measurement-inputs)
+    - [NMEA2000 I/O Connector](#nmea2000-io-connector)
+    - [NMEA0183 / RS232 I/O Connector](#nmea0183--rs232-io-connector)
+    - [RS485 I/O Connector](#rs485-io-connector)
+  - [Firmware](#firmware)
+  - [Assets](#assets)
 
 
 ## Product Description
@@ -23,7 +34,7 @@ The MCC400 also has two serial ports: one RS232 (RX/TX) and one RS485. These can
 
 ## External Connectors
 
-### 1-Wire Bus
+###  1-Wire Bus
 
 A 3-pin terminal block is provided with the pins labled GND, DQ and 5V. 
 
@@ -38,39 +49,39 @@ The 1-wire input is connected to five (5) [DS18B20 1-wire Thermometer sensors](h
 *   house battery bank 2 temperature (`PGN127508: Battery status`); and 
 *   inverter temperature (`PGN 130316: Temperature, Extended Range`).
    
-### Opto-isolated Inputs
+###  Opto-isolated Inputs
 
 *TODO: Document the `Opto-isolated Inputs` section*
 
 
-### MQ Gas Sensors ADC Inputs
+###  MQ Gas Sensors ADC Inputs
 
 *TODO: Document the `MQ Gas Sensors` section*
 
 
-### Tank ADC Inputs
+###  Tank ADC Inputs
 
 *TODO: Document the `Tank ADC Inputs` section*
 
 
-### Opto-isolated Relay Outputs
+###  Opto-isolated Relay Outputs
 
 *TODO: Document the `Opto-isolated  Relay Outputs` section*
 
 
-### Voltage, Current and Power Measurement Inputs
+###  Voltage, Current and Power Measurement Inputs
 
 *TODO: Document the `Voltage, Current and Power Measurement Inputs` section*
 
-### NMEA2000 I/O Connector
+###  NMEA2000 I/O Connector
 
 *TODO: Document the `NMEA2000 I/O Connector` section*
 
-### NMEA0183 / RS232 I/O Connector
+###  NMEA0183 / RS232 I/O Connector
 
 *TODO: Document the `NMEA0183 / RS232 I/O Connector` section*
 
-### RS485 I/O Connector
+###  RS485 I/O Connector
 
 *TODO: Document the `RS485 I/O Connector` section*
 
