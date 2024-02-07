@@ -1,4 +1,4 @@
-**MCC400 MARINE CABIN CONTROLLER**
+# MCC400 MARINE CABIN CONTROLLER
 
 A marine cabin systems and environment controller/supervisor.
 
@@ -6,19 +6,9 @@ A marine cabin systems and environment controller/supervisor.
 - [Product Description](#product-description)
 - [External Connectors](#external-connectors)
   - [1-Wire Bus](#1-wire-bus)
-  - [Opto-isolated Inputs](#opto-isolated-inputs)
-  - [MQ Gas Sensors ADC Inputs](#mq-gas-sensors-adc-inputs)
-  - [Tank ADC Inputs](#tank-adc-inputs)
-  - [Opto-isolated Relay Outputs](#opto-isolated-relay-outputs)
-  - [Voltage, Current and Power Measurement Inputs](#voltage-current-and-power-measurement-inputs)
-  - [NMEA2000 I/O Connector](#nmea2000-io-connector)
-  - [NMEA0183 / RS232 I/O Connector](#nmea0183--rs232-io-connector)
-  - [RS485 I/O Connector](#rs485-io-connector)
-- [Firmware](#firmware)
-- [Assets](#assets)
 
 
-# Product Description
+## Product Description
 
 The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It collects data and transmits this data on the vessel's NMEA2000 (N2K) bus. The MCC400 monitors:
 * Fridge, freezer, battery and inverter temperatures using [DS18B20 1-wire Thermometer sensors](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf) connected to the 1-wire bus.
@@ -31,9 +21,9 @@ The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It colle
 
 The MCC400 also has two serial ports: one RS232 (RX/TX) and one RS485. These can be connected to other serial devices, e.g. a GPS or a solar charge controller.
 
-# External Connectors
+## External Connectors
 
-## 1-Wire Bus
+### 1-Wire Bus
 
 A 3-pin terminal block is provided with the pins labled GND, DQ and 5V. 
 
@@ -48,48 +38,48 @@ The 1-wire input is connected to five (5) [DS18B20 1-wire Thermometer sensors](h
 *   house battery bank 2 temperature (`PGN127508: Battery status`); and 
 *   inverter temperature (`PGN 130316: Temperature, Extended Range`).
    
-## Opto-isolated Inputs
+### Opto-isolated Inputs
 
 *TODO: Document the `Opto-isolated Inputs` section*
 
 
-## MQ Gas Sensors ADC Inputs
+### MQ Gas Sensors ADC Inputs
 
 *TODO: Document the `MQ Gas Sensors` section*
 
 
-## Tank ADC Inputs
+### Tank ADC Inputs
 
 *TODO: Document the `Tank ADC Inputs` section*
 
 
-## Opto-isolated Relay Outputs
+### Opto-isolated Relay Outputs
 
 *TODO: Document the `Opto-isolated  Relay Outputs` section*
 
 
-## Voltage, Current and Power Measurement Inputs
+### Voltage, Current and Power Measurement Inputs
 
 *TODO: Document the `Voltage, Current and Power Measurement Inputs` section*
 
-## NMEA2000 I/O Connector
+### NMEA2000 I/O Connector
 
 *TODO: Document the `NMEA2000 I/O Connector` section*
 
-## NMEA0183 / RS232 I/O Connector
+### NMEA0183 / RS232 I/O Connector
 
 *TODO: Document the `NMEA0183 / RS232 I/O Connector` section*
 
-## RS485 I/O Connector
+### RS485 I/O Connector
 
 *TODO: Document the `RS485 I/O Connector` section*
 
-# Firmware
+## Firmware
 
 *TODO: Document the `FIRMWARE` section*
 
 
-# Assets
+## Assets
 
 The [_ASSETS](https://github.com/GM-Consult-IOT/MCC400_Firmware/tree/main/_ASSETS) folder contains assets for the MLI400 Marine Legacy Interface:
 *   [Circuit schematics for the v2.1 PCB as a PDF](https://github.com/GM-Consult-IOT/MCC400_Firmware/blob/main/_ASSETS/MC400%20schematic%20v2.1.pdf)
