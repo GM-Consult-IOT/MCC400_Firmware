@@ -1,11 +1,13 @@
-# MCC400 MARINE CABIN CONTROLLER
 
 A marine cabin systems and environment controller/supervisor.
 
 **Contents**
-- [MCC400 MARINE CABIN CONTROLLER](#mcc400-marine-cabin-controller)
-  - [Product Description](#product-description)
+- [Product Description](#product-description)
+- [Hardware](#hardware)
+  - [Front Panel Buttons](#front-panel-buttons)
+  - [Front Panel OLED Display](#front-panel-oled-display)
   - [External Connectors](#external-connectors)
+    - [Micro-USB Programming Port](#micro-usb-programming-port)
     - [1-Wire Bus](#1-wire-bus)
     - [Opto-isolated Inputs](#opto-isolated-inputs)
     - [MQ Gas Sensors ADC Inputs](#mq-gas-sensors-adc-inputs)
@@ -16,11 +18,12 @@ A marine cabin systems and environment controller/supervisor.
     - [NMEA0183 / RS232 I/O Connector](#nmea0183--rs232-io-connector)
     - [RS485 I/O Connector](#rs485-io-connector)
   - [Firmware](#firmware)
+- [Resources](#resources)
   - [Assets](#assets)
   - [Datasheets](#datasheets)
 
 
-## Product Description
+# Product Description
 
 The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It collects data and transmits this data on the vessel's NMEA2000 (N2K) bus. The MCC400 monitors:
 * Fridge, freezer, battery and inverter temperatures using [DS18B20 1-wire Thermometer sensors](https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf) connected to the 1-wire bus.
@@ -33,7 +36,19 @@ The MCC400 Marine Cabin Controller monitors vessel cabin/house systems. It colle
 
 The MCC400 also has two serial ports: one RS232 (RX/TX) and one RS485. These can be connected to other serial devices, e.g. a GPS or a solar charge controller.
 
+# Hardware
+
+## Front Panel Buttons
+
+## Front Panel OLED Display
+
+*TODO: Document the `USB Programming Port` section*
+
 ## External Connectors
+
+### Micro-USB Programming Port
+
+*TODO: Document the `USB Programming Port` section*
 
 ###  1-Wire Bus
 
@@ -90,6 +105,7 @@ The 1-wire input is connected to five (5) [DS18B20 1-wire Thermometer sensors](h
 
 *TODO: Document the `FIRMWARE` section*
 
+# Resources
 
 ## Assets
 
